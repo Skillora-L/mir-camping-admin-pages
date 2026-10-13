@@ -1,0 +1,74 @@
+/* Brand presentation is scoped so the private management UI stays unchanged. */
+main.storefront{width:100%;max-width:none;--green:#164e36;--ink:#192e28;--muted:#61736c;--orange:#d96a2d;background:white}
+.storefront .wrap{width:min(1280px,calc(100% - 96px))}
+.storefront .header{background:#fffffff5;backdrop-filter:blur(16px);border-bottom:1px solid #e1e9e5}
+.storefront .header-inner{min-height:84px;gap:22px}.storefront .header nav{gap:24px}.storefront .header nav a{font-size:14px}
+.storefront .language-switch{background:#f4f7f5}.storefront .cart-toggle{min-height:40px;border-color:#b6c9bf;padding:8px 14px;border-radius:4px}
+.storefront .cart-toggle span{display:inline-grid;place-items:center;min-width:21px;height:21px;background:#174d2c;color:white;border-radius:3px}
+.storefront .hero.carousel{background:#243e34;min-height:540px;height:min(680px,calc(100svh - 152px))}
+.storefront .hero-scene{z-index:0;transition:opacity 1s ease;pointer-events:none}
+.storefront .hero-inner{position:relative;z-index:1;height:100%;min-height:0;padding-top:44px;padding-bottom:94px;justify-content:center}
+.storefront .hero-eyebrow{font-size:13px;font-weight:600;margin-bottom:20px;display:flex;align-items:center;gap:12px;color:white}
+.storefront .hero-eyebrow::before{content:"";height:2px;width:28px;background:#ffd281}
+.storefront .hero h1{font-size:32px;line-height:1.3;max-width:720px;font-weight:600;margin:0 0 22px;text-shadow:0 2px 18px #10231c33}
+.storefront .hero h1 span{font-size:76px;line-height:1.1;font-weight:800;display:block;margin:0 0 18px}
+.storefront .hero h1 br{display:none}.storefront .hero p{font-size:18px;max-width:520px;line-height:1.6}
+.storefront .hero .actions{margin-top:32px;gap:12px}.storefront .hero .button{min-height:50px;padding:12px 25px;border-radius:3px;font-size:15px}
+.storefront .hero .green{background:#fff;color:#163e2b}.storefront .hero .green:hover{background:#f0d8ad}
+.storefront .hero .outline{background:#15332844;border-color:#ffffff80}
+.storefront .hero-caption{position:absolute;bottom:27px;left:max(48px,calc((100% - 1280px)/2));right:max(48px,calc((100% - 1280px)/2));z-index:1;display:flex;justify-content:space-between;align-items:center;font-size:12px;font-weight:600;border-top:1px solid #ffffff50;padding-top:18px;color:white;pointer-events:none}
+.storefront .hero-caption a{pointer-events:auto}.storefront .carousel-controls{z-index:2;bottom:18px;background:none;padding:0;gap:6px}
+.storefront .carousel-controls>button{width:36px;height:36px;border:1px solid #ffffff60;border-radius:50%;font-size:22px}
+.storefront .carousel-controls .carousel-pause{font-size:16px}
+.storefront .benefit-band{background:#193d30;border:0}.storefront .benefits{padding:24px 0;gap:0}
+.storefront .benefits span{color:#becfc6;border-color:#ffffff24;align-items:flex-start;padding:0 28px;font-size:13px}
+.storefront .benefits span:first-child{padding-left:0}.storefront .benefits b{color:white;font-size:17px;margin-bottom:5px;font-weight:650}
+.storefront #products{padding-top:78px;padding-bottom:70px}.storefront .collection-heading{text-align:left;padding-bottom:30px}
+.storefront .collection-heading>p{justify-content:flex-start;color:#a45625;font-size:12px;font-weight:650}.storefront .collection-heading>p::before{display:none}.storefront .collection-heading>p::after{width:42px;background:#ba825e}
+.storefront .collection-heading h2,.storefront #products .selection-heading h2{font-size:38px;color:#193a2d;line-height:1.25;font-weight:750;margin:13px 0 16px}
+.storefront .collection-heading>span{font-size:15px;color:#687c72;line-height:1.6;max-width:700px}
+.storefront .category-head{display:block;margin:0 0 26px}.storefront .category-head>div:first-child{display:none}
+.storefront .category-tabs{display:flex;justify-content:flex-start;gap:4px;border-bottom:1px solid #dce5df;padding:0;margin:0;flex-wrap:wrap}
+.storefront .category-tabs button{flex:0 1 auto;font-size:14px;padding:14px 18px;min-height:48px;border:0;position:relative;color:#65756a}
+.storefront .category-tabs button[aria-pressed=true]{background:#e9f1ec;color:#174c32;font-weight:700;box-shadow:inset 0 -3px #174c32}
+.storefront .products{gap:26px}.storefront .product{border-bottom:1px solid #dce5df;padding-bottom:20px}
+.storefront .photo{overflow:hidden;border-radius:4px;background:#f2f5f2;aspect-ratio:4/5;position:relative}
+.storefront .photo .product-image{transition:transform .65s cubic-bezier(.2,.7,.2,1)}.storefront .product-image.lifestyle-photo{object-fit:cover}
+.storefront .product-meta{padding-top:18px}.storefront .product-meta h3{font-size:16px;font-weight:650;line-height:1.5;min-height:3em;color:#1a3629}
+.storefront .product-meta p{font-size:12px;line-height:1.6;margin-top:5px;color:#708078}.storefront .product-actions{border-top:1px solid #edf1ee;padding-top:12px;margin-top:16px;display:flex;flex-wrap:wrap;gap:8px}
+.storefront .product-actions button{min-height:34px;font-size:13px}.storefront .detail{font-weight:650}.storefront .add{padding:6px 10px;background:#edf3ef;border-radius:3px;color:#28513b}
+.storefront .browse-category{text-align:right;margin-top:28px}.storefront .browse-category a{font-size:14px;font-weight:600;padding-bottom:8px;border-bottom:1px solid #395d49}
+.storefront .collections-group{background:#eff4f5;padding:64px max(48px,calc((100% - 1280px)/2));border:0}
+.storefront .collections-group>.collection-heading{max-width:1280px;margin:auto}.storefront .campaign{grid-template-columns:1.15fr 1fr;gap:44px;min-height:440px}
+.storefront .collections-group .season-feature{margin:0;border-radius:0;min-height:440px;padding:38px;align-items:flex-end;background-position:center;overflow:hidden}
+.storefront .season-feature h2{font-size:38px;font-weight:750;line-height:1.2}.storefront .season-feature p{max-width:300px;font-size:15px}.storefront .season-feature span{font-size:14px}
+.storefront .promotion{padding-top:4px!important}.storefront .promotion h2{font-size:28px;color:#193b2b}.storefront .promotion>p{font-size:14px;margin-top:8px}
+.storefront .promo-products{gap:18px;margin-top:24px;margin-bottom:26px;align-items:start}.storefront .promo-products button{background:transparent;aspect-ratio:auto;text-align:left;overflow:hidden}
+.storefront .promo-products .product-image{aspect-ratio:4/5;height:auto;border-radius:3px;transition:transform .5s}.storefront .promo-products button>span{display:block;position:static;font-size:13px;line-height:1.6;padding-top:12px}
+.storefront .promotion>a{display:inline-block;border-bottom:1px solid #305b40;padding-bottom:6px;font-size:14px}
+.storefront .collections-group .cover-section{width:100%;margin-top:36px;gap:24px}.storefront .collections-group .collection-cover{border-radius:0;min-height:235px;display:flex;flex-direction:column;justify-content:flex-end;padding:30px}
+.storefront .collection-cover h2{font-size:28px;font-weight:700}.storefront .collection-cover p{font-size:14px;margin-top:8px}.storefront .collection-cover>span{background:transparent!important;align-self:flex-start;padding:0 0 4px;border-bottom:1px solid #ffffff88;font-size:14px;border-radius:0}
+.storefront .brand-scene{position:relative;isolation:isolate;min-height:360px;display:flex;align-items:center;color:white;overflow:hidden;background:#233a2f}
+.storefront .brand-scene>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 53%;z-index:-2}
+.storefront .brand-scene::before{content:"";position:absolute;inset:0;background:#08261960;z-index:-1}
+.storefront .brand-scene .wrap{padding-block:64px}.storefront .brand-scene p{font-family:Arial,sans-serif;font-size:16px;font-weight:700}.storefront .brand-scene h2{font-size:46px;font-weight:700;margin:18px 0;max-width:720px;line-height:1.2}.storefront .brand-scene span{display:block;font-size:16px}.storefront .brand-scene a{display:inline-block;border-bottom:1px solid #ffffff99;padding-bottom:6px;margin-top:30px;font-size:14px}
+.storefront .custom-contact{padding:70px 0 76px;background:#fff;border:0}.storefront .custom-contact .collection-heading{border-bottom:1px solid #dce5df;padding-bottom:32px;margin-bottom:36px}.storefront .custom-layout{gap:72px;grid-template-columns:.9fr 1.1fr}
+.storefront .custom-story{border-top:0;padding-top:10px}.storefront .custom-story h2{font-size:34px;line-height:1.35;margin:16px 0 24px}.storefront .custom-story .custom-intro{font-size:15px;line-height:1.9;max-width:450px}.storefront .custom-scope{display:grid;grid-template-columns:1fr 1fr;gap:0;margin-top:30px}.storefront .custom-scope span{border-top:1px solid #d9e3dc;padding:13px 0;font-size:14px}
+.storefront .custom-layout form{gap:0 20px}.storefront .custom-contact input:not([type=checkbox]),.storefront .custom-contact textarea{background:#f6f8f6;border:1px solid #d8e2db;min-height:48px}.storefront .custom-contact form>.button{min-height:50px}.storefront .custom-contact .consent{line-height:1.6}
+.storefront .brand-footer{background:#172f26;padding-top:40px}.storefront .footer-columns{padding-bottom:34px;gap:28px}.storefront .footer-bottom{border-color:#ffffff20;padding-block:18px}
+.storefront.catalog-page #products{padding-top:40px}.storefront.catalog-page .photo{aspect-ratio:3/4}.storefront .catalog-intro h1{font-size:42px}.storefront .catalog-modules{border-bottom:1px solid #dce4df}.storefront .catalog-category-list{gap:8px}
+@media(hover:hover) and (prefers-reduced-motion:no-preference){.storefront .product:hover .photo .product-image{transform:scale(1.035)}.storefront .photo:hover{filter:none}.storefront .button{transition:background .2s,color .2s,transform .2s}.storefront .button:hover{transform:translateY(-2px)}.storefront .promo-products button:hover .product-image{transform:scale(1.025)}}
+@media(min-width:701px) and (max-width:1150px){.storefront .header-inner{gap:14px;flex-wrap:wrap;padding-block:12px}.storefront .header nav{order:4;width:100%;justify-content:center}.storefront .hero h1 span{font-size:64px}.storefront .campaign{gap:28px}.storefront .custom-layout{gap:32px}.storefront .products{gap:18px}.storefront .benefits span{padding-inline:16px}}
+@media(max-width:700px){
+ .storefront .wrap{width:calc(100% - 36px)}.storefront .header-inner{min-height:100px;gap:6px;padding-block:8px}.storefront .header .logo img{width:128px}.storefront .header .cart-toggle{padding:6px 8px;font-size:12px;min-height:36px}.storefront .header nav{gap:0}.storefront .language-switch{padding:2px}.storefront .language-switch button{min-height:28px}
+ .storefront .hero.carousel{height:calc(100svh - 184px);min-height:405px;max-height:580px}.storefront .hero-inner{padding:36px 0 83px;justify-content:center}.storefront .hero-eyebrow{font-size:12px;margin-bottom:22px}.storefront .hero h1{font-size:22px;line-height:1.35;margin-bottom:16px;max-width:340px}.storefront .hero h1 span{font-size:42px;line-height:1.08;margin-bottom:18px}.storefront .hero p{font-size:15px;max-width:300px}.storefront .hero .actions{margin-top:25px;gap:10px}.storefront .hero .button{padding:10px 16px;font-size:13px;min-height:44px}.storefront .hero-caption{left:18px;right:18px;bottom:22px;padding-top:14px}.storefront .hero-caption a{display:none}.storefront .carousel-controls{left:auto;right:18px;transform:none;bottom:13px;gap:2px}.storefront .carousel-controls>button{width:30px;height:30px}.storefront .carousel-dots button{width:20px}
+ .storefront .benefits{padding:12px 0;grid-template-columns:1fr 1fr}.storefront .benefits span,.storefront .benefits span:first-child{padding:12px 10px;align-items:flex-start;font-size:11px;border-color:#ffffff20}.storefront .benefits b{font-size:14px;margin-bottom:4px}
+ .storefront #products{padding:42px 0}.storefront .collection-heading h2,.storefront #products .selection-heading h2{font-size:28px;margin:10px 0 14px}.storefront .collection-heading>span{font-size:14px}.storefront .collection-heading{padding-bottom:24px}
+ .storefront .category-tabs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0}.storefront .category-tabs button{font-size:12px;padding:10px 3px;white-space:normal;line-height:1.4;min-height:44px}.storefront .products{gap:24px 14px}.storefront .product{padding-bottom:14px}.storefront .photo{aspect-ratio:3/4}.storefront .product-meta{padding-top:12px}.storefront .product-meta h3{font-size:14px;min-height:3em}.storefront .product-meta p{font-size:11px}.storefront .product-actions{display:grid;grid-template-columns:1fr;gap:4px;margin-top:10px;padding-top:8px}.storefront .product-actions button{font-size:12px;min-height:32px}.storefront .detail{text-align:left}.storefront .add{text-align:center;padding:6px}.storefront .browse-category{margin-top:22px;text-align:center}
+ .storefront .collections-group{padding:42px 18px}.storefront .campaign{grid-template-columns:1fr;gap:30px}.storefront .collections-group .season-feature{min-height:320px;padding:26px}.storefront .season-feature h2{font-size:32px}.storefront .promotion h2{font-size:25px}.storefront .promo-products{gap:14px;margin-top:18px}.storefront .promo-products button>span{font-size:13px}.storefront .collections-group .cover-section{gap:16px;margin-top:28px}.storefront .collections-group .collection-cover{min-height:210px;padding:24px}.storefront .collection-cover h2{font-size:26px}
+ .storefront .brand-scene{min-height:300px}.storefront .brand-scene .wrap{padding-block:44px}.storefront .brand-scene h2{font-size:32px;max-width:320px}.storefront .brand-scene span{font-size:14px}
+ .storefront .custom-contact{padding:42px 0}.storefront .custom-layout{grid-template-columns:1fr;gap:26px}.storefront .custom-story h2{font-size:27px;margin:12px 0 16px}.storefront .custom-story .custom-intro{font-size:14px}.storefront .custom-scope{margin-top:20px}.storefront .custom-contact .collection-heading{margin-bottom:22px}.storefront .custom-layout form{column-gap:14px}.storefront .custom-contact .upload-help{line-height:1.6}
+ .storefront .brand-footer{padding-top:24px}.storefront .footer-columns{gap:0;padding-bottom:16px}.storefront .footer-bottom{padding-block:12px}.storefront .catalog-intro h1{font-size:30px}
+ html[lang=ru] .storefront .category-tabs{grid-template-columns:repeat(2,minmax(0,1fr))}html[lang=ru] .storefront .hero h1{font-size:24px}html[lang=ru] .storefront .hero h1 span{font-size:42px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.storefront *{animation:none!important;transition:none!important;scroll-behavior:auto!important}}

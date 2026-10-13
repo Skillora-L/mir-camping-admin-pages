@@ -1,0 +1,11 @@
+{
+  "name": "mir-camping-admin-pages",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-05-01",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "assets": {
+    "binding": "ASSETS"
+  }
+}

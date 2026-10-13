@@ -1,0 +1,46 @@
+/* Full-width photography with a translucent text-side fade, never a solid panel. */
+.brand-polish .hero-scene.product-scene,
+.brand-polish .season-feature,
+.brand-polish .sale-cover,
+.brand-polish .seasonal-cover {
+  background-color:transparent;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.brand-polish .season-feature {
+  background-image:linear-gradient(90deg,rgba(7,16,12,.64),rgba(7,16,12,.25) 45%,transparent 80%),url('/banners/creek-mirrored-wide-v4.webp');
+  background-position:center,78% center;
+}
+.brand-polish .sale-cover {
+  background-image:linear-gradient(90deg,rgba(7,16,12,.68),rgba(7,16,12,.30) 43%,transparent 78%),url('/banners/ivory-wide-v2.webp');
+}
+.brand-polish .seasonal-cover {
+  background-image:linear-gradient(90deg,rgba(7,16,12,.70),rgba(7,16,12,.32) 43%,transparent 78%),url('/banners/winter-wide-v2.webp');
+}
+.brand-polish .hero-scene.product-scene:first-child {
+  transform:scaleY(1.17);
+  transform-origin:center 90%;
+}
+.brand-polish .hero :is(h1,p),
+.brand-polish :is(.season-feature,.collection-cover) :is(h2,p) {
+  text-shadow:0 1px 3px #000b,0 2px 8px #0006;
+}
+.brand-polish .hero-scene.product-scene::after {
+  content:"";
+  position:absolute;
+  inset:0;
+  pointer-events:none;
+  background:linear-gradient(90deg,rgba(7,16,12,.62) 0%,rgba(7,16,12,.46) 30%,rgba(7,16,12,.15) 53%,transparent 76%);
+}
+.brand-polish .hero :is(h1,p) {
+  text-shadow:0 2px 5px #0005;
+}
+@media(max-width:640px) {
+  .brand-polish .hero-scene.product-scene {
+    background-position:65% center;
+  }
+  .brand-polish .hero-scene.product-scene::after {
+    background:linear-gradient(90deg,rgba(7,16,12,.64),rgba(7,16,12,.34) 62%,rgba(7,16,12,.06));
+  }
+}

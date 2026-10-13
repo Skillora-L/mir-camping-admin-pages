@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.vinext/
+.next/
+.wrangler/
+.env*
+.dev.vars*
+private/
+tmp/
+*.log
+*.tsbuildinfo
+.DS_Store
+
+pages-dist/
+.pages-state/

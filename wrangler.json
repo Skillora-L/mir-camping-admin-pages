@@ -1,0 +1,18 @@
+{
+  "name": "mir-camping-admin-pages",
+  "pages_build_output_dir": "pages-dist",
+  "compatibility_date": "2026-05-01",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "mir-camping-inquiries",
+      "database_id": "db5307ed-44ce-4696-a674-71293dcdeae8"
+    }
+  ],
+  "vars": {
+    "PUBLIC_SITE_URL": "https://mir-camping-web-pages.pages.dev"
+  }
+}

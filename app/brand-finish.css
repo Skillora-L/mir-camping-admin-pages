@@ -1,0 +1,76 @@
+/* Surface treatment only: preserve all approved dimensions and grids. */
+.brand-polish {--green:#20543c;--deep:#183c2c;--line:#dde5df;--muted:#69756e;--orange:#b86a28}
+.brand-polish .header {border-bottom-color:#dfe7e1;box-shadow:0 3px 14px #193d2805}
+.brand-polish .header nav a {color:#384b3e}
+.brand-polish .header nav a:hover {color:var(--green)}
+.brand-polish .language-switch {background:#f2f6f3;border-color:#dbe5de;border-radius:3px}
+.brand-polish .language-switch button[aria-pressed=true] {background:var(--green);box-shadow:0 1px 3px #163c2420}
+.brand-polish .cart-toggle {color:var(--green);border-color:#c0d0c4;background:#f8faf8;border-radius:3px}
+.brand-polish .cart-toggle:hover {background:#edf4ee;border-color:#648c70}
+.brand-polish .hero h1 {text-shadow:0 2px 14px #11281930}
+.brand-polish .hero p {text-shadow:0 1px 6px #11281975}
+.brand-polish .hero .green {background:#fff;color:#214e34;box-shadow:0 3px 14px #0c241929}
+.brand-polish .hero .green:hover {background:#edf3ed}
+.brand-polish .hero .outline {background:#183d2a40;border-color:#ffffffbd}
+.brand-polish .hero .outline:hover {background:#183d2a80}
+.brand-polish .carousel-controls {background:#183626a6;box-shadow:0 0 0 1px #ffffff2b}
+.brand-polish .benefit-band {background:#edf3ef;border-bottom-color:#dbe5de}
+.brand-polish .benefits span {border-color:#cfded3;color:#607366}
+.brand-polish .benefits b {color:#234e34}
+.brand-polish .collection-heading>p {color:#906637}
+.brand-polish .collection-heading>p::before,.brand-polish .collection-heading>p::after {background:#b89463}
+.brand-polish .collection-heading h2 {color:#1e4933}
+.brand-polish .collection-heading>span {color:#68766d}
+.brand-polish .kicker {color:#6d7b70}
+.brand-polish .category-tabs {border-bottom-color:#dbe5de}
+.brand-polish .category-tabs button {color:#607065;border-radius:3px 3px 0 0}
+.brand-polish .category-tabs button[aria-pressed=true] {background:#ecf3ee;color:#1d5235;border-bottom-color:#38794b}
+.brand-polish .category-tabs button:hover {background:#f2f6f3;color:#1d5235}
+.brand-polish .photo {border-radius:4px;box-shadow:0 0 0 1px #e3e8e3}
+.brand-polish .product-meta h3 {color:#263d2e}
+.brand-polish .product-meta p {color:#788278}
+.brand-polish .product-actions {background:linear-gradient(#e4ebe6,#e4ebe6) left top / 100% 1px no-repeat}
+.brand-polish .detail {color:#25543a}
+.brand-polish .add {color:#4c6c56}
+.brand-polish .add:hover {color:#164b2e;text-decoration:none}
+.brand-polish .browse-category a {text-decoration:underline;text-decoration-color:#bbcdbf;text-underline-offset:6px}
+.brand-polish .collections-group {background:#f2f5f6;border-top-color:#e1e7e8}
+.brand-polish .season-feature {border-radius:4px;box-shadow:inset 0 0 0 1px #ffffff15}
+.brand-polish .season-feature h2 {text-shadow:0 2px 10px #15251d50}
+.brand-polish .promotion h2 {color:#244731}
+.brand-polish .promo-products button {border-radius:4px;box-shadow:0 0 0 1px #e0e6e3}
+.brand-polish .promo-products .product-image {border-radius:4px}
+.brand-polish .promo-products button>span {color:#445c4a}
+.brand-polish .promotion>a {text-decoration:underline;text-decoration-color:#b9cfc0;text-underline-offset:5px}
+.brand-polish .collection-cover {box-shadow:inset 0 0 0 1px #ffffff18}
+.brand-polish .collection-cover>span {background:#ffffffed;color:#214931;border-radius:3px}
+.brand-polish .collection-cover:hover>span {background:#e7f0e8;color:#153b25}
+.brand-polish .custom-contact {border-top-color:#e0e7e1}
+.brand-polish .custom-story {border-top-color:#5f856b}
+.brand-polish .custom-story h2 {color:#244832}
+.brand-polish .custom-scope {color:#5c785f}
+.brand-polish .custom-contact input:not([type=checkbox]),.brand-polish .custom-contact textarea {background:#f8faf8;border-color:#dbe4dc;border-radius:4px}
+.brand-polish .custom-contact input:not([type=checkbox]):focus,.brand-polish .custom-contact textarea:focus {background:#fff;border-color:#5c8064}
+.brand-polish .custom-contact :is(input,textarea)::placeholder {color:#829084}
+.brand-polish .upload-label {background:#f5f8f5;border-color:#b7c9ba;color:#496d50;border-radius:4px}
+.brand-polish .upload-label:hover {background:#eaf2ec;border-color:#719779}
+.brand-polish .button {border-radius:3px}
+.brand-polish .brand-footer {background:#20392d;border-top-color:#749278}
+.brand-polish .brand-footer :is(p,a,button),.brand-polish .factory-address {color:#c1cec4}
+.brand-polish .brand-footer :is(a,button):hover {color:#fff}
+.brand-polish .brand-footer .factory-phone {color:#fff}
+.brand-polish .footer-bottom {border-top-color:#ffffff24;color:#a5b9aa}
+.brand-polish .catalog-modules button[aria-pressed=true] {color:#215139;border-bottom-color:#3b7651}
+.brand-polish .catalog-category-list button[aria-pressed=true] {background:#e9f2eb;color:#215139}
+.brand-polish dialog {box-shadow:0 20px 70px #0a281f38}
+.brand-polish .stepper {border-color:#dce6de;border-radius:4px}
+.brand-polish .stepper button {background:#edf3ef;color:#244e35}
+.brand-polish .stepper button:hover {background:#dceadd}
+.brand-polish .stepper span {font-variant-numeric:tabular-nums;color:#244e35}
+.brand-polish .gallery-thumbnails button {background:#f3f6f3;border-radius:3px}
+.brand-polish .detail-list-add {background:#edf4ee;color:#2e593b;border-radius:3px}
+.brand-polish :is(button,a):focus-visible {outline-color:#53815c}
+@media(hover:hover) {
+ .brand-polish .photo {transition:box-shadow .25s,filter .2s}
+ .brand-polish .photo:hover {box-shadow:0 0 0 1px #93ad9a,0 5px 16px #1535210c}
+}

@@ -1,0 +1,68 @@
+/* Shared readable type scale; keep existing responsive grids and images. */
+html[lang] .brand-polish .header nav a {font-size:14px;font-weight:650}
+html[lang] .brand-polish .language-switch button {font-size:14px;font-weight:600}
+html[lang] .brand-polish .cart-toggle {font-size:13px;font-weight:600}
+html[lang] .brand-polish .hero p {font-size:18px;font-weight:600;line-height:1.5}
+html[lang] .brand-polish .button {font-size:15px;font-weight:650}
+html[lang] .brand-polish .hero .button {font-size:15px;font-weight:650}
+html[lang] .brand-polish .benefits b {font-size:16px;font-weight:700;line-height:1.4}
+html[lang] .brand-polish .benefits span {font-size:13px;line-height:1.55;color:#526358}
+html[lang] .brand-polish .collection-heading>p,
+html[lang] .brand-polish .kicker {font-size:14px;font-weight:600}
+html[lang] .brand-polish .collection-heading>span {font-size:16px;line-height:1.6;color:#536359}
+html[lang] .brand-polish .collection-heading h2,
+html[lang] .brand-polish #products .selection-heading h2 {font-size:30px;font-weight:700}
+html[lang] .brand-polish .category-tabs button {font-size:15px;font-weight:650}
+html[lang] .brand-polish .product-meta h3 {font-size:17px;font-weight:700;line-height:1.45}
+html[lang] .brand-polish .product-meta p {font-size:14px;font-weight:500;line-height:1.5;color:#56665b}
+html[lang] .brand-polish .product-actions button {font-size:14px;font-weight:650;white-space:normal}
+html[lang] .brand-polish .product-actions {flex-wrap:wrap}
+html[lang] .brand-polish .browse-category {font-size:15px;font-weight:600}
+html[lang] .brand-polish :is(.season-feature,.promotion,.collection-cover) h2 {font-weight:700}
+html[lang] .brand-polish .season-feature p,
+html[lang] .brand-polish .promotion>p,
+html[lang] .brand-polish .collection-cover p {font-size:15px;font-weight:500;line-height:1.6}
+html[lang] .brand-polish .season-feature span,
+html[lang] .brand-polish .collection-cover>span,
+html[lang] .brand-polish .promotion>a {font-size:14px;font-weight:650}
+html[lang] .brand-polish .promo-products button>span {font-size:14px;font-weight:650;line-height:1.45}
+/* Labels remain in the original position, but now reserve their natural height. */
+html[lang] .brand-polish .promo-products button {aspect-ratio:auto;background:transparent}
+html[lang] .brand-polish .promo-products .product-image {aspect-ratio:3/4;height:auto}
+html[lang] .brand-polish .promo-products button>span {position:static;display:block}
+html[lang] .brand-polish .promo-products {align-items:start;margin-bottom:14px}
+html[lang] .brand-polish .custom-intro {font-size:16px;font-weight:500;line-height:1.75;color:#526358}
+html[lang] .brand-polish .custom-story h2 {font-weight:700}
+html[lang] .brand-polish .custom-scope {font-size:14px;font-weight:600}
+html[lang] .brand-polish .custom-contact label {font-size:15px;font-weight:600}
+html[lang] .brand-polish .custom-contact :is(input,textarea) {font-size:16px}
+html[lang] .brand-polish .custom-contact :is(input,textarea)::placeholder {color:#69786d}
+html[lang] .brand-polish .upload-help,
+html[lang] .brand-polish .custom-contact .consent {font-size:13px;font-weight:500;line-height:1.6;color:#607065}
+html[lang] .brand-polish .brand-footer :is(p,a,button),
+html[lang] .brand-polish .factory-address {font-size:14px;font-weight:500;line-height:1.7}
+html[lang] .brand-polish .brand-footer h3 {font-size:16px;font-weight:650}
+html[lang] .brand-polish .brand-footer .factory-phone {font-size:18px;font-weight:650}
+html[lang] .brand-polish .footer-bottom {font-size:12px}
+html[lang] .brand-polish .catalog-modules button {font-size:15px;font-weight:650}
+html[lang] .brand-polish .catalog-category-list button {font-size:14px;font-weight:600}
+html[lang] .brand-polish .catalog-result p,
+html[lang] .brand-polish .catalog-result>span {font-size:14px;color:#54675b}
+html[lang] .brand-polish .detail-dialog p {font-size:16px;color:#56665b}
+@media(max-width:700px) {
+ html[lang] .brand-polish .cart-toggle {font-size:12px}
+ html[lang] .brand-polish .hero p {font-size:16px}
+ html[lang] .brand-polish .hero .button {font-size:14px}
+ html[lang] .brand-polish .benefits b {font-size:14px}
+ html[lang] .brand-polish .benefits span {font-size:12px}
+ html[lang] .brand-polish .collection-heading h2,
+ html[lang] .brand-polish #products .selection-heading h2 {font-size:26px}
+ html[lang] .brand-polish .collection-heading>span {font-size:15px}
+ html[lang] .brand-polish .category-tabs button {font-size:14px}
+ html[lang] .brand-polish .product-meta h3 {font-size:16px}
+ html[lang] .brand-polish .product-meta p {font-size:13px}
+ html[lang] .brand-polish .product-actions button {font-size:14px}
+ html[lang] .brand-polish .footer-brand p {font-size:13px}
+ html[lang] .brand-polish .footer-contact-actions {flex-wrap:wrap;gap:4px 12px}
+ html[lang] .brand-polish .catalog-result>span {white-space:nowrap}
+}
